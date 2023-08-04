@@ -1,0 +1,55 @@
+.buttons {
+  position: absolute;
+  bottom: 7rem;
+  left: 1.5rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+
+button {
+  width: 5rem;
+  height: 2.5rem;
+  border-radius: 50px;
+  background-color: #1e1b1b;
+  color: #00a3c6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+.chat-effect {
+  opacity: 0.6;
+  border-style: none;
+}
+.photos-effect {
+  opacity: 0.6;
+  border-style: none;
+}
+.contacts-effect {
+  opacity: 0.6;
+  border-style: none;
+}
+.iphone-effect {
+  border: 2px solid white;
+}
+.phone-effect {
+  border-style: none;
+}
+.clicked {
+  border: 2px solid white;
+  opacity: 1;
+}
+
+#btn-4.hover-effect:hover {
+  opacity: 0.8;
+}
+
+.special-button {
+  background-color: red;
+}
+
+.special-button:hover {
+  background-color: #1e1b1b;
+}

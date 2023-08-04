@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "icon": "assets/icons/chat.png",
+    "effect": "chat-effect"
+  },
+  {
+    "id": 2,
+    "icon": "assets/icons/photos.png",
+    "effect": "photos-effect"
+  },
+  {
+    "id": 3,
+    "icon": "assets/icons/contacts.png",
+    "effect": "contacts-effect"
+  },
+  {
+    "id": 4,
+    "icon": "assets/icons/iphone.png",
+    "effect": "iphone-effect"
+  },
+  {
+    "id": 5,
+    "icon": "assets/icons/phone.png",
+    "icon2": "assets/icons/phone-red.png",
+    "effect": "phone-effect"
+  }
+]

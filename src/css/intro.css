@@ -1,0 +1,95 @@
+.intro-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: auto;
+  background-color: white;
+  z-index: 99;
+}
+
+.white-rectangle {
+  position: absolute;
+  display: flex;
+  left: 40.6%;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  z-index: 1;
+  animation: moveRectangle 1.71s ease-in both;
+}
+
+.svg-wrapper-logo {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.svg-wrapper-second {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+}
+
+@keyframes moveToLeft {
+  0% {
+    transform: translateX(-30px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(-350%);
+    opacity: 1;
+  }
+}
+
+@keyframes moveRectangle {
+  0% {
+    transform: translateX(-30px);
+  }
+
+  100% {
+    transform: translateX(-84%);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInFromCenter {
+  0% {
+    transform: translateX(-30%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.show-white-rectangle {
+  opacity: 1;
+}
+
+.show-logo-svg {
+  opacity: 1;
+  animation: moveToLeft 0.4s ease-in forwards;
+}
+
+.hide-logo-svg {
+  opacity: 0;
+}
+
+.show-second-svg {
+  opacity: 1;
+  animation: fadeInFromCenter 0.2s linear none;
+}
+
+.hide-second-svg {
+  opacity: 0;
+  transform: translateX(0);
+}
