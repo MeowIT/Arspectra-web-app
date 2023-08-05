@@ -3,7 +3,7 @@ import "../css/buttons.css";
 import buttonsData from "../data/buttons.json";
 
 interface ButtonProps {
-  id: number | string; // Allow id to be either number or string
+  id: number | string;
   icon: string;
   icon2?: string;
   effect: string;
